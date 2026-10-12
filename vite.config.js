@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/blog-card/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/blog_card.github.io/" : "/",
   plugins: [react(), tailwindcss()],
 });
